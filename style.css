@@ -83,3 +83,37 @@ button:hover {
   text-decoration: none;
   margin-right: 3px;
 }
+@media only screen and (max-width: 1242px) {
+  body {
+    height: 100vh;
+    margin: 0 0.7rem;
+    background-size: 125%;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    text-align: center;
+  }
+  .mockups img {
+    width: 400px;
+  }
+  .icons {
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 110px;
+  }
+
+  .card-text h1 {
+    line-height: 1.5;
+    font-size: 35px;
+  }
+  .card-text p {
+    line-height: 1.5;
+    font-size: 23px;
+    font-weight: 400;
+    opacity: 0.8;
+  }
+  .card-text button {
+    padding: 10px 70px;
+  }
+}
